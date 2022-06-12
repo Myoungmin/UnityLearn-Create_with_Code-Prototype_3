@@ -756,12 +756,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36029437db54953478f239ed12335989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 556603609}
+  dirtParticle: {fileID: 1637550383}
+  jumpSound: {fileID: 8300000, guid: 08ab7053d586c458db3774d33c141a4b, type: 3}
+  crashSound: {fileID: 8300000, guid: 913d6445ee8cc4152a9c18da590ee203, type: 3}
   jumpForce: 700
   gravityModifier: 1.5
   isOnGround: 1
   gameOver: 0
-  explosionParticle: {fileID: 556603609}
-  dirtParticle: {fileID: 1637550383}
 --- !u!4 &1377015970 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
